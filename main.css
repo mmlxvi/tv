@@ -84,15 +84,15 @@ body {
 }
 
 
-#inner-div
-{
+#inner-div {	
+
 	margin-left:auto;
 	margin-right:auto;
   	width:75%;
 	min-width:600px;
 	max-width:900px;
 	min-height:300px;
-  	
+  	z-index:1;
   	
   /*display:inline-block; */
   
@@ -100,6 +100,7 @@ body {
 
 #inner-div img {
 	width:80%;
+	
 }
 
 #inner-div2
@@ -111,16 +112,19 @@ body {
 	max-width:900px;
 	min-height:100px;
 	margin-top:60px;
- 
+	z-index:1;
+ 	
 }
 
 #inner-div2 img {
 	width:48%;
+	z-index:1;
 }
 
 
-#pictureHolder {
-
+#youTubeHolder {
+	margin-top:-420px;
+	z-index:-1;
  }
 
 #pictureHolder img {
