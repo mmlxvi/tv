@@ -66,50 +66,51 @@ body {
 
 #header {
 	color:blue;
-	margin-top:100px;
+	
 
 	margin-left:auto;
 	margin-right:auto;
 	width:75%;
 	min-width:600px;
 	max-width:900px;
+	min-height:200px;
 	font-family:Geneva;
 	background:lightblue;
-	outline:2px solid green;
+	display:inline-block;
+	
 }
 
 #header img {
 	width:96%;
-	margin-left:7.2px
+	
 
 }
 
 
-
-#outer-div {
-	height:600px;
-	width:100%;
-	min-width:1200px;
-	margin-top:135px;
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:gray;
-	display:none;
-
-}
 
 #inner-div
 {
-  
-  width:360px;
-height:600px;
-  background-color: white;
+  	width:75%;
+	min-width:600px;
+	max-width:900px;
+	min-height:300px;
+  	background-color: white;
   /*display:inline-block; */
-  display:none;
-	text-align:center;
-	position:relative;
+  
+	display:inline-block;
+	
 
+}
+
+#inner-div2
+{
+  	width:75%;
+	min-width:600px;
+	max-width:900px;
+	min-height:100px;
+  background-color:pink;
+  display:inline-block;
+  
 }
 
 .para {
@@ -118,20 +119,7 @@ height:600px;
 	margin-top:18px;
 }
 
-#inner-div2
-{
-  width:75%;
-	min-width:600px;
-	max-width:900px;
-	min-height:100px;
-  background-color:pink;
-  display:inline-block;
-position:relative;
 
-  /* border-left:1px black dashed;
-  border-right:1px black dashed; */
-  
-}
 
 #pictureHolder {
 
@@ -149,17 +137,7 @@ position:relative;
 
 }
 
-#inner-div3
-{
-  
-  width:360px;
-	height:600px;
-  background-color: red;
-  display:inline-block;
-text-align:center;
-display:none;
-  
-}
+
 
 #infoBox {
 	text-align:left;
