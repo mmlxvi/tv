@@ -22,6 +22,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -47,7 +49,204 @@ table {
 	border-spacing: 0;
 }
 
+/* my work here */
+
 html {
-	min-height:100%;
+	
 }
-/* my work below */
+
+body {
+	text-align:center;
+	background-color:black;
+}
+
+#holder {
+	
+}
+
+#header {
+	color:red;
+	margin-top:100px;
+
+	margin-left:auto;
+	margin-right:auto;
+	width:65%;
+	min-width:600px;
+	font-family:Geneva;
+	background:lightblue;
+	outline:2px solid green;
+}
+
+#header img {
+	width:96%;
+	margin-left:7.2px
+
+}
+
+
+
+#outer-div {
+	height:600px;
+	width:100%;
+	min-width:1200px;
+	margin-top:135px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:gray;
+	display:none;
+
+}
+
+#inner-div
+{
+  
+  width:360px;
+height:600px;
+  background-color: white;
+  /*display:inline-block; */
+  display:none;
+	text-align:center;
+	position:relative;
+
+}
+
+.para {
+	border:1px solid black;
+	font-size:1.2em;
+	margin-top:18px;
+}
+
+#inner-div2
+{
+  width:460px;
+  height:600px;
+  background-color:pink;
+  display:inline-block;
+position:relative;
+
+  /* border-left:1px black dashed;
+  border-right:1px black dashed; */
+  
+}
+
+#pictureHolder {
+
+ }
+
+#pictureHolder img {
+	max-width:400px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+
+}
+
+#inner-div3
+{
+  
+  width:360px;
+	height:600px;
+  background-color: red;
+  display:inline-block;
+text-align:center;
+display:none;
+  
+}
+
+#infoBox {
+	text-align:left;
+	line-height:1.4em;
+
+}
+
+
+.parallels {
+	height:300px;
+	width:300px;
+	border:1px solid black;
+	text-align:center;
+	margin:0 auto;
+	margin-top:10px;
+}
+
+.innerds {
+	
+   
+    }
+
+.headers {
+	font-size:1.8em;
+	height:60px;
+	width:360px;
+	text-align:center;
+	line-height:2em;
+	margin-top:100px;
+	background-color:#fbfbfb;
+}
+
+#box {
+	border:1px solid black;
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Geneva;
+  color: #ffffff;
+  font-size: 1.2em;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width:280px;
+  margin-top:18px;
+}
+
+
+
+
+.nextQ {
+	border: 1px solid black;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:18px;
+	color:white;
+	background-color:black;
+	padding:8px;
+}
+
+.nextQ:focus {
+	outline:none;
+
+}
+
+#foot {
+	color:white;
+	font-family:Geneva;
+	margin-top:736px;
+	padding-right:10px;
+	float:right;
+}
+
+#fill {
+	height:100px;
+	width:300px;
+	background-color:white;
+}
+
+
+
+
+
+
+
