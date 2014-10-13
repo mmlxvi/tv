@@ -110,17 +110,13 @@ body {
 	min-width:600px;
 	max-width:900px;
 	min-height:100px;
-	margin-top:40px;
+	margin-top:60px;
  
-  
 }
 
-.para {
-	border:1px solid black;
-	font-size:1.2em;
-	margin-top:18px;
+#inner-div2 img {
+	width:48%;
 }
-
 
 
 #pictureHolder {
