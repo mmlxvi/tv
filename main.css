@@ -70,7 +70,7 @@ body {
 
 	margin-left:auto;
 	margin-right:auto;
-	width:65%;
+	width:75%;
 	min-width:600px;
 	max-width:900px;
 	font-family:Geneva;
@@ -120,8 +120,10 @@ height:600px;
 
 #inner-div2
 {
-  width:460px;
-  height:600px;
+  width:75%;
+	min-width:600px;
+	max-width:900px;
+	min-height:100px;
   background-color:pink;
   display:inline-block;
 position:relative;
