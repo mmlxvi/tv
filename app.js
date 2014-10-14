@@ -1,3 +1,6 @@
+
+
+
 // Your use of the YouTube API must comply with the Terms of Service:
 // https://developers.google.com/youtube/terms
 
@@ -16,7 +19,8 @@ function onClientLoad() {
 function onYouTubeApiLoad() {
     // This API key is intended for use only in this lesson.
     // See http://goo.gl/PdPA1 to get a key for your own applications.
-    gapi.client.setApiKey('AIzaSyCR5In4DZaTP6IEZQ0r1JceuvluJRzQNLE');
+    //my API key added on october 13, 2014
+    gapi.client.setApiKey('AIzaSyC8sxfsmd_IufvqmaXtBiBegRXdjN6U86w');
 
     search();
 }
@@ -40,3 +44,5 @@ function search() {
 function onSearchResponse(response) {
     showResponse(response);
 }
+
+
