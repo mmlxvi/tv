@@ -150,20 +150,6 @@ body {
 
 
 
-
-
-
-
-
-
-lock;
-position:relative;
-
-  /* border-left:1px black dashed;
-  border-right:1px black dashed; */
-  
-}
-
 #pictureHolder {
 
  }
@@ -192,12 +178,6 @@ display:none;
   
 }
 
-#infoBox {
-	text-align:left;
-	line-height:1.4em;
-
-}
-
 
 .parallels {
 	height:300px;
@@ -208,10 +188,6 @@ display:none;
 	margin-top:10px;
 }
 
-.innerds {
-	
-   
-    }
 
 .headers {
 	font-size:1.8em;
@@ -231,38 +207,8 @@ display:none;
 
 }
 
-.btn {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0px;
-  font-family: Geneva;
-  color: #ffffff;
-  font-size: 1.2em;
-  background: #000000;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  width:280px;
-  margin-top:18px;
-}
 
 
-
-
-.nextQ {
-	border: 1px solid black;
-	width:200px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:18px;
-	color:white;
-	background-color:black;
-	padding:8px;
-}
-
-.nextQ:focus {
-	outline:none;
-
-}
 
 #foot {
 	color:white;
