@@ -27,9 +27,11 @@ $('#dial').click(function() {
 
   var videoLibrary = ['Nw1nRv0jSkY','p24QsMMS0xs', 'xxzPk_qSjrE','o-Uv5ZNk0RE',
   '4-Kqt5YIXTs', 'a7usMy6EYZI','WTR_rEnW9yA', '5eGqFd7L5F0','WIKqgE4BwAY',
-  'XyTmXLWCazw', 'cMqLPDDHtkc'];
+  'XyTmXLWCazw', 'cMqLPDDHtkc', 'IHbaBd3h0FU', 'yRqXSKTbaec', 'xYsFmMrxztc',
+  'STqFXr5N5AI', 'BJ1FLn7T448', 'RxwvGsz1Iiw', 'aRp_G7ENZo4',
+  '1vHsfRiFbhc'];
 
-  var randomVid = videoLibrary[Math.floor((Math.random() * 11))];
+  var randomVid = videoLibrary[Math.floor((Math.random() * 19))];
 
 
   // 3. This function creates an <iframe> (and YouTube player)
@@ -66,7 +68,7 @@ $('#dial').click(function() {
    var done = false;
   function onPlayerStateChange(event) {
     if (event.data == YT.PlayerState.PLAYING && !done) {
-      setTimeout(stopVideo, 20000);
+      setTimeout(stopVideo, 200000);
       done = true;
     }
   }
