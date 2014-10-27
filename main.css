@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -22,11 +22,11 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	
+
 
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -52,7 +52,7 @@ table {
 /* my work here */
 
 html {
-	
+
 }
 
 body {
@@ -61,7 +61,7 @@ body {
 }
 
 #holder {
-	
+
 }
 
 #header {
@@ -69,168 +69,98 @@ body {
 	margin-top:80px;
 	margin-left:auto;
 	margin-right:auto;
-	width:75%;
-	min-width:600px;
-	max-width:900px;
+	width:900px;
 	margin-bottom:40px;
 	font-family:Geneva;
-		
+
 }
 
 #header img {
 	width:70%;
-	
+
 
 }
 
 
-#inner-div {	
+#inner-div {
 
 	margin-left:auto;
 	margin-right:auto;
-  	width:75%;
-	min-width:600px;
-	max-width:900px;
-	min-height:300px;
+  	width:900px;
+
+
   	z-index:1;
-  	
   /*display:inline-block; */
-  
+
 }
 
 #inner-div img {
 	width:80%;
-	z-index:3;
+
 }
 
 #inner-div2
 {
 	margin-left:auto;
 	margin-right:auto;
-  	width:75%;
-	min-width:600px;
-	max-width:900px;
-	min-height:100px;
-	margin-top:60px;
-	z-index:1;
- 	
+  	width:900px;
+	margin-top:580px;
+
+	position:relative;
+
+
 }
 
 #inner-div2 img {
 	width:48%;
-	z-index:1;
+margin-top:68px;
 }
 
 
-#youTubeHolder {
-	margin-top:-420px;
-	margin-left:-120px;
+#player {
+	margin-top:-495px;
+	margin-left:-440px;
+	z-index:-10;
+	position:absolute;
  }
 
- #youTubeHolder iframe {
- 	z-index:-1;
- }
+#shell {
+	margin-top:-520px;
+	margin-left:-42px;
+	z-index:10px;
+	position:absolute;
+}
+
 
 .hidden {
-	
-}
-
-.specialHidden {
 	display:none;
 }
 
+
+
 .tvON {
-display:none;}
 
-#infoBox {
-	text-align:left;
-	line-height:1.4em;
 
 }
 
-
-.parallels {
-	height:300px;
-	width:300px;
-	border:1px solid black;
-	text-align:center;
-	margin:0 auto;
-	margin-top:10px;
-}
-
-.innerds {
-	
-   
-    }
-
-.headers {
-	font-size:1.8em;
-	height:60px;
-	width:360px;
-	text-align:center;
-	line-height:2em;
-	margin-top:100px;
-	background-color:#fbfbfb;
-}
-
-#box {
-	border:1px solid black;
-	width:300px;
-	margin-left:auto;
+.pink {
+	margin-left:-7%;
 	margin-right:auto;
+  	width:900px;
+	/* background-color:pink; */
+	z-index:-1;
+	margin-top:-400px;
+	text-align:center;
 
 }
 
-.btn {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0px;
-  font-family: Geneva;
-  color: #ffffff;
-  font-size: 1.2em;
-  background: #000000;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  width:280px;
-  margin-top:18px;
+#dial {
+	border:2px pink solid;
+	border-radius:100%;
+	height:50px;
+	width:50px;
+	z-index:10 !important;
+	margin-top:-429px;
+	margin-left:742px;
+	position:absolute;
 }
-
-
-
-
-.nextQ {
-	border: 1px solid black;
-	width:200px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:18px;
-	color:white;
-	background-color:black;
-	padding:8px;
-}
-
-.nextQ:focus {
-	outline:none;
-
-}
-
-#foot {
-	color:white;
-	font-family:Geneva;
-	margin-top:736px;
-	padding-right:10px;
-	float:right;
-}
-
-#fill {
-	height:100px;
-	width:300px;
-	background-color:white;
-}
-
-
-
-
-
-
-
