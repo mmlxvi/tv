@@ -8,7 +8,10 @@ var player;
 //The alert in the function immediately below is just to show that the
 //button is in fact connected and working.
 
+$('#dial').click(function() {
+  onYouTubeAPIReady();
 
+})
 
 });
 
@@ -38,16 +41,8 @@ var player;
     player = new YT.Player('player', {
       height: '479.7',
       width: '780',
-
-      playerVars:
-          {
-            'autoplay':1,
-            'controls':0,
-            listType:'playlist',
-            list: 'PLCaIgL_k8O3JLkQNRf5m2VdaVGp2ks2aQ'
-          },
-      //videoId: randomVid,
-      //playerVars: {'autoplay':1, 'controls':0},
+      videoId: randomVid,
+      playerVars: {'autoplay':1, 'controls':0},
       events: {
         'onReady': onPlayerReady,
         'onStateChange': onPlayerStateChange
@@ -60,13 +55,6 @@ var player;
   // 4. The API will call this function when the video player is ready.
   function onPlayerReady(event) {
     event.target.playVideo();
-    //player.setLoop(loopPlaylists:Boolean):Void;
-    //player.setShuffle(shufflePlaylist:Boolean):Void;
-    player.setShuffle({'shufflePlaylist' : 1});
-    $('#dial').click(function() {
-    player.nextVideo();
-    //alert('working');
-    })
   }
 
 
@@ -78,14 +66,14 @@ var player;
 
 //   var done = false;
   function onPlayerStateChange(event) {
-    if (event.data == (YT.PlayerState.PLAYING && !done)) {
-      setTimeout(stopVideo, 2000);
+  /*  if (event.data == (YT.PlayerState.PLAYING && !done)) {
+      setTimeout(stopVideo, 200000);
       done = true;
-    }
+    } */
 
-    /*  if (event.data == (YT.PlayerState.ENDED)){
+      if (event.data == (YT.PlayerState.ENDED)){
         onPlayerReady();
-      } */
+      }
   }
   function stopVideo() {
     player.stopVideo();
